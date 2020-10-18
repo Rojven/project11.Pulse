@@ -1,8 +1,13 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AIAA,AAAA,MAAM,AAAC,CACH,UAAU,CAAE,KAAK,CACjB,OAAO,CAAE,aAAa,CACtB,UAAU,CAAE,0BAA0B,CAAC,MAAM,CAAC,YAAc,CAAC,SAAS,CAAG,ACH7E,AAAA,OAAO,AAAC,CACJ,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,CAC9B,eAAe,CAAE,MAAM,CAAG,ALE9B,AAAA,CAAC,AAAC,CACE,WAAW,CAAE,6BAA6B,CAAG,AACjD,AAAA,UAAU,AAAC,CACP,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,MAAM,CAAG",
     "sources": [
-        "../blocks/style.scss"
+        "../sass/style.sass",
+        "../sass/_variables.sass",
+        "../sass/_mixins.sass",
+        "../sass/_general.sass",
+        "../sass/_promo.sass",
+        "../sass/_header.sass"
     ],
     "names": [],
     "file": "style.min.css"
