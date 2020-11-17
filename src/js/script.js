@@ -4,13 +4,36 @@ $(document).ready(function(){
         prevArrow: '<button type="button" class="slick-prev"><img src="icons/left.svg"></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="icons/right.svg"></button>',
         responsive: [
-            {
-              breakpoint: 768,
-              settings: {
-                arrows: false,
-                dots: true
-              }
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true,
+              arrows: false
             }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true,
+              arrows: false
+            }
+          },
+          {
+            breakpoint: 575,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true,
+              arrows: false
+            }
+          }
         ] 
     });
     $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
