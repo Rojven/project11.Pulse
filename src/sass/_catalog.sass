@@ -115,20 +115,23 @@
             &_active
                 transform: translateX(-100%)
                 margin-left: 20px
-            li
-                position: relative
-                font-size: 14px
-                font-weight: 300
-                color: #555555
-                margin-bottom: 20px
-                &::before
-                    content: ''
-                    position: absolute
-                    width: 5px
-                    height: 5px
-                    background-color: $main_color
-                    left: -14px
-                    top: 7px
+            ul
+                margin: 0
+                padding: 0
+                li
+                    position: relative
+                    font-size: 14px
+                    font-weight: 300
+                    color: #555555
+                    margin-bottom: 20px
+                    &::before
+                        content: ''
+                        position: absolute
+                        width: 5px
+                        height: 5px
+                        background-color: $main_color
+                        left: -14px
+                        top: 7px
         &__back
             position: absolute
             bottom: 0

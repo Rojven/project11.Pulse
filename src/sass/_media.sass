@@ -26,12 +26,13 @@
             width: 11px
     .carousel
         &__inner
+            width: 100%
             img
-                max-width: 500px
+                width: 100%
                 margin: 0 auto
     .catalog
         &__tab
-            width: 200px
+            width: 180px
             height: 45px
             font-size: 16px
     .footer
@@ -65,6 +66,9 @@
     .consultation
         &__descr
             margin-top: 45px
+    .carousel
+        &__inner
+            width: 100% 
     .catalog
         &__content
             justify-content: space-around
@@ -82,8 +86,7 @@
 @media (max-width: 575px)
     .header
         &__logo
-            img
-                width: 80%
+            width: 170px 
         &__official
             display: none
         &__phone
@@ -92,6 +95,12 @@
         &__wrapper
             margin-right: 0
             align-items: center
+        &__icons
+            display: none
+        &__header
+            text-align: center
+        &__subheader
+            text-align: center
     .benefits
         &__wrapper
             flex-direction: column
@@ -106,13 +115,14 @@
         font-size: 20px
         &_left
             text-align: center
+            line-height: 29px
     .consultation
         &__descr
             margin-top: 35px
             text-align: center
     .feed-form
         align-items: center
-        width: 575px
+        width: 100%
         input
             width: 300px
     .button
@@ -121,16 +131,21 @@
             width: 300px
     .carousel
         &__inner
-            width: 575px  
+            width: 100%  
             img
-                width: 400px          
+                width: 100%          
     .slick-dots
         margin: 0 auto
     .catalog
+        &__tabs
+            flex-direction: column
         &__tab
-            width: 156px
+            width: 220px
             font-size: 14px
             line-height: 45px
+            margin-bottom: 20px
+            &:last-child
+                margin-bottom: 0
     .review
         .review-block
             flex-direction: column
@@ -140,42 +155,7 @@
                 text-align: center
             &__subheader
                 text-align: center
-@media (width: 320px)
-    .header
-        &__logo
-            display: none
-        &__contact
-            align-items: center
-    .promo
-        &__header
-            font-size: 21px
-        &__subheader
-            font-size: 11px
-        &__icons
-            display: none
-    .title
-        font-size: 15px
-        &_left
-            line-height: 30px
-    .consultation
-        &__descr
-            margin-top: 25px
-            font-size: 13px
-    .feed-form
-        width: 320px
-    .carousel
-        &__inner
-            width: 320px  
-            img
-                width: 300px
-    .catalog
-        &__tabs
-            flex-direction: column
-        &__tab
-            width: 180px
-            margin-bottom: 12px
-            &:last-child
-                margin-bottom: 0
+
             
 
         
